@@ -13,6 +13,16 @@
 		4D7B97B11F37EFE3008D17DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B97AF1F37EFE3008D17DE /* Main.storyboard */; };
 		4D7B97B31F37EFE3008D17DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B97B21F37EFE3008D17DE /* Assets.xcassets */; };
 		4D7B97B61F37EFE3008D17DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B97B41F37EFE3008D17DE /* LaunchScreen.storyboard */; };
+		4D7B97C01F3813E4008D17DE /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B97BF1F3813E4008D17DE /* BasicViewController.m */; };
+		4D7B97C31F38159A008D17DE /* HYTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B97C21F38159A008D17DE /* HYTransition.m */; };
+		4D7B97C61F38351C008D17DE /* HYPushAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B97C51F38351C008D17DE /* HYPushAnimator.m */; };
+		4D7B97C91F383532008D17DE /* HYPopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B97C81F383532008D17DE /* HYPopAnimator.m */; };
+		4D7B97CC1F38400B008D17DE /* HYKuGouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B97CB1F38400B008D17DE /* HYKuGouViewController.m */; };
+		4D7B97CF1F384208008D17DE /* HYWeiXinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B97CE1F384208008D17DE /* HYWeiXinViewController.m */; };
+		4D7B97D21F3843ED008D17DE /* BasicPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B97D11F3843ED008D17DE /* BasicPushViewController.m */; };
+		4D7B97D71F385C00008D17DE /* HYKuGouPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B97D61F385C00008D17DE /* HYKuGouPushViewController.m */; };
+		4D7B97DA1F385C59008D17DE /* HYKuGouTranstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B97D91F385C59008D17DE /* HYKuGouTranstion.m */; };
+		4D7B97DD1F385D23008D17DE /* HYKuGouPercentDervenTranstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B97DC1F385D23008D17DE /* HYKuGouPercentDervenTranstion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,26 @@
 		4D7B97B21F37EFE3008D17DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D7B97B51F37EFE3008D17DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D7B97B71F37EFE3008D17DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7B97BE1F3813E4008D17DE /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		4D7B97BF1F3813E4008D17DE /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		4D7B97C11F38159A008D17DE /* HYTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYTransition.h; path = ../HYTransition.h; sourceTree = "<group>"; };
+		4D7B97C21F38159A008D17DE /* HYTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYTransition.m; path = ../HYTransition.m; sourceTree = "<group>"; };
+		4D7B97C41F38351C008D17DE /* HYPushAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYPushAnimator.h; path = ../HYPushAnimator.h; sourceTree = "<group>"; };
+		4D7B97C51F38351C008D17DE /* HYPushAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYPushAnimator.m; path = ../HYPushAnimator.m; sourceTree = "<group>"; };
+		4D7B97C71F383532008D17DE /* HYPopAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYPopAnimator.h; path = ../HYPopAnimator.h; sourceTree = "<group>"; };
+		4D7B97C81F383532008D17DE /* HYPopAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYPopAnimator.m; path = ../HYPopAnimator.m; sourceTree = "<group>"; };
+		4D7B97CA1F38400B008D17DE /* HYKuGouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYKuGouViewController.h; path = ../HYKuGouViewController.h; sourceTree = "<group>"; };
+		4D7B97CB1F38400B008D17DE /* HYKuGouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYKuGouViewController.m; path = ../HYKuGouViewController.m; sourceTree = "<group>"; };
+		4D7B97CD1F384208008D17DE /* HYWeiXinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYWeiXinViewController.h; path = ../Transition/HYWeiXinViewController.h; sourceTree = "<group>"; };
+		4D7B97CE1F384208008D17DE /* HYWeiXinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYWeiXinViewController.m; path = ../Transition/HYWeiXinViewController.m; sourceTree = "<group>"; };
+		4D7B97D01F3843ED008D17DE /* BasicPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPushViewController.h; sourceTree = "<group>"; };
+		4D7B97D11F3843ED008D17DE /* BasicPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPushViewController.m; sourceTree = "<group>"; };
+		4D7B97D51F385C00008D17DE /* HYKuGouPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKuGouPushViewController.h; sourceTree = "<group>"; };
+		4D7B97D61F385C00008D17DE /* HYKuGouPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKuGouPushViewController.m; sourceTree = "<group>"; };
+		4D7B97D81F385C59008D17DE /* HYKuGouTranstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKuGouTranstion.h; sourceTree = "<group>"; };
+		4D7B97D91F385C59008D17DE /* HYKuGouTranstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKuGouTranstion.m; sourceTree = "<group>"; };
+		4D7B97DB1F385D23008D17DE /* HYKuGouPercentDervenTranstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKuGouPercentDervenTranstion.h; sourceTree = "<group>"; };
+		4D7B97DC1F385D23008D17DE /* HYKuGouPercentDervenTranstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKuGouPercentDervenTranstion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +92,9 @@
 				4D7B97AA1F37EFE3008D17DE /* AppDelegate.m */,
 				4D7B97AC1F37EFE3008D17DE /* ViewController.h */,
 				4D7B97AD1F37EFE3008D17DE /* ViewController.m */,
+				4D7B97D41F385B6F008D17DE /* HYWeiXinTranstion */,
+				4D7B97D31F385B3B008D17DE /* HYKuGouTranstion */,
+				4D7B97BD1F37F0D5008D17DE /* Transition */,
 				4D7B97AF1F37EFE3008D17DE /* Main.storyboard */,
 				4D7B97B21F37EFE3008D17DE /* Assets.xcassets */,
 				4D7B97B41F37EFE3008D17DE /* LaunchScreen.storyboard */,
@@ -77,6 +110,48 @@
 				4D7B97A71F37EFE3008D17DE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D7B97BD1F37F0D5008D17DE /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B97BE1F3813E4008D17DE /* BasicViewController.h */,
+				4D7B97BF1F3813E4008D17DE /* BasicViewController.m */,
+				4D7B97D01F3843ED008D17DE /* BasicPushViewController.h */,
+				4D7B97D11F3843ED008D17DE /* BasicPushViewController.m */,
+				4D7B97C11F38159A008D17DE /* HYTransition.h */,
+				4D7B97C21F38159A008D17DE /* HYTransition.m */,
+				4D7B97C41F38351C008D17DE /* HYPushAnimator.h */,
+				4D7B97C51F38351C008D17DE /* HYPushAnimator.m */,
+				4D7B97C71F383532008D17DE /* HYPopAnimator.h */,
+				4D7B97C81F383532008D17DE /* HYPopAnimator.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		4D7B97D31F385B3B008D17DE /* HYKuGouTranstion */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B97CA1F38400B008D17DE /* HYKuGouViewController.h */,
+				4D7B97CB1F38400B008D17DE /* HYKuGouViewController.m */,
+				4D7B97D51F385C00008D17DE /* HYKuGouPushViewController.h */,
+				4D7B97D61F385C00008D17DE /* HYKuGouPushViewController.m */,
+				4D7B97D81F385C59008D17DE /* HYKuGouTranstion.h */,
+				4D7B97D91F385C59008D17DE /* HYKuGouTranstion.m */,
+				4D7B97DB1F385D23008D17DE /* HYKuGouPercentDervenTranstion.h */,
+				4D7B97DC1F385D23008D17DE /* HYKuGouPercentDervenTranstion.m */,
+			);
+			name = HYKuGouTranstion;
+			path = Transition/HYKuGouTranstion;
+			sourceTree = "<group>";
+		};
+		4D7B97D41F385B6F008D17DE /* HYWeiXinTranstion */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B97CD1F384208008D17DE /* HYWeiXinViewController.h */,
+				4D7B97CE1F384208008D17DE /* HYWeiXinViewController.m */,
+			);
+			path = HYWeiXinTranstion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +225,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7B97C31F38159A008D17DE /* HYTransition.m in Sources */,
+				4D7B97D21F3843ED008D17DE /* BasicPushViewController.m in Sources */,
+				4D7B97C61F38351C008D17DE /* HYPushAnimator.m in Sources */,
+				4D7B97DA1F385C59008D17DE /* HYKuGouTranstion.m in Sources */,
+				4D7B97CF1F384208008D17DE /* HYWeiXinViewController.m in Sources */,
 				4D7B97AE1F37EFE3008D17DE /* ViewController.m in Sources */,
+				4D7B97C01F3813E4008D17DE /* BasicViewController.m in Sources */,
 				4D7B97AB1F37EFE3008D17DE /* AppDelegate.m in Sources */,
+				4D7B97CC1F38400B008D17DE /* HYKuGouViewController.m in Sources */,
+				4D7B97D71F385C00008D17DE /* HYKuGouPushViewController.m in Sources */,
+				4D7B97C91F383532008D17DE /* HYPopAnimator.m in Sources */,
+				4D7B97DD1F385D23008D17DE /* HYKuGouPercentDervenTranstion.m in Sources */,
 				4D7B97A81F37EFE3008D17DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
